@@ -1,0 +1,16 @@
+.top{
+     width: 800px;
+     height: auto;
+     padding: 20px;
+     background-color: #dcc9f4;
+    }
+    .top-child{
+     width: 20%;
+     display: inline-block;
+     text-align: center;
+     background-color: #ffd9df;
+    }
+    .middle{
+     width: 800px;
+     height: 800px;
+    }
