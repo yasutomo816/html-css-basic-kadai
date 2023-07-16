@@ -1,0 +1,77 @@
+h1 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+p, a {
+  font-size: 20px;
+}
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244,79,79);
+  text-align: center;
+  color: rgb(255,255,255);
+}
+main {
+  margin: 10px;
+}
+main > #parent {
+  display: flex;
+  justify-content: space-between;
+}
+#parent .contents {
+  border: 3px solid rgb(238,204,204);
+  flex-basis: 25%;
+  padding: 10px 15px; 
+  margin: 20px 0px;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  border-bottom: 3px dashed rgb(239,122,122);
+}
+/* 擬似要素の使い方↓ */
+h2::before {
+  content: "●";
+  color: rgb(239,111,139);
+}             
+/* first-letter初めの文字に対してのstyleを当てれる */
+p:nth-of-type(2)::first-letter {
+  color: rgb(97,206,249);
+  font-weight: bold;
+}
+img {
+  margin: 10px 0px;
+  width: 70%;
+}
+footer {
+  background-color: rgb(244,79,79);
+  text-align: center;
+}
+a {
+  color: rgb(255,255,255);
+}
+a:hover {
+  color: rgb(245,178,168);
+}
+a:visited {
+  color: rgb(193,234,251);
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  #parent {
+    flex-direction: column;
+  }
+}
+
+
