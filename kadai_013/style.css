@@ -65,6 +65,7 @@ PC用のスタイル
   #nav-sp {
     display: none;
   }
+
 }
   @media screen and (max-width: 767px) {  
   body {
@@ -91,12 +92,14 @@ PC用のスタイル
     display: none;
     z-index: 100;
   }
-/* xボタン */
-  #closs {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
+
+    /* xボタン */
+    #close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
 /* ナビゲーションメニュー用ロゴ */
   #logo-sp {
     margin: 80px 0px 30px 20px;
