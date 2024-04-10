@@ -1,5 +1,5 @@
-$(document).on('click keydown', (e) => {
-    if(e.type === 'click'){
-        $('div').text('クリックしました！');
-    }
+$(function(){
+    $('.btn').on('click',function(){
+        $('.text-box').val('クリックされました！');
+    });
 });
