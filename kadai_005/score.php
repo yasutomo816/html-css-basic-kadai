@@ -13,28 +13,28 @@
         $count = 5;
 
         // 各計算結果
-        $result1 = 80 + 60;
-        $result2 = 55 + 40;
-        $result3 = 100 + 25;
-        $result4 = 80 + 95;
-        $result5 = 30 + 60;
+        $score1 = 80 + 60;
+        $score2 = 55 + 40;
+        $score3 = 100 + 25;
+        $score4 = 80 + 95;
+        $score5 = 30 + 60;
 
         // 合計点を計算
-        $sum = $result1 + $result2 + $result3 + $result4 + $result5;
+        $sum = $score1 + $score2 + $score3 + $score4 + $score5;
 
         // 平均点を計算
         $average = $sum / $count;
 
         // 各計算結果を表示
-        echo $result1;
+        echo $score1;
         echo "<br>";
-        echo $result2;
+        echo $score2;
         echo "<br>";
-        echo $result3;
+        echo $score3;
         echo "<br>";
-        echo $result4;
+        echo $score4;
         echo "<br>";
-        echo $result5;
+        echo $score5;
         echo "<br>";
 
         // 合計点と平均点を表示
