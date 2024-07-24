@@ -7,20 +7,23 @@
 <body>
     <p>
         <?php
-        // 合計点と平均点を算出するための変数を定義
-        $sum = 0;
-        // 数字の数
-        $count = 5;
-
-        // 各計算結果
-        $score1 = 80 + 60;
-        $score2 = 55 + 40;
-        $score3 = 100 + 25;
-        $score4 = 80 + 95;
-        $score5 = 30 + 60;
+        // スコアを定義
+        $score1 = 80;
+        $score2 = 60;
+        $score3 = 55;
+        $score4 = 40;
+        $score5 = 100;
+        $score6 = 25;
+        $score7 = 80;
+        $score8 = 95;
+        $score9 = 30;
+        $score10 = 60;
 
         // 合計点を計算
-        $sum = $score1 + $score2 + $score3 + $score4 + $score5;
+        $sum = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+
+        // 数字の数
+        $count = 10;
 
         // 平均点を計算
         $average = $sum / $count;
@@ -35,6 +38,16 @@
         echo $score4;
         echo "<br>";
         echo $score5;
+        echo "<br>";
+        echo $score6;
+        echo "<br>";
+        echo $score7;
+        echo "<br>";
+        echo $score8;
+        echo "<br>";
+        echo $score9;
+        echo "<br>";
+        echo $score10;
         echo "<br>";
 
         // 合計点と平均点を表示
