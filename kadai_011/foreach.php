@@ -12,7 +12,7 @@
         $personal_date = ['name' => '玉ねぎ', 'price' => '200', 'location' => '北海道'];
 
         foreach ($personal_date as $value) {
-            echo $value . '<br>';
+            echo $key . '(:)' . $value . '<br>';
         }
         ?>
     </p>
